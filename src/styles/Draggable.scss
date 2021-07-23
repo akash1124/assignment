@@ -1,0 +1,21 @@
+.item-container {
+  display: flex;
+  .sidebar {
+    flex: 1;
+    overflow: auto;
+    width: 30%;
+  }
+
+  .data-container {
+    flex: 3;
+    width: 65%;
+    overflow: auto;
+    border: 2.5px solid black;
+    margin: 3px 3px;
+
+    .message {
+      text-align: center;
+      line-height: 400px;
+    }
+  }
+}
